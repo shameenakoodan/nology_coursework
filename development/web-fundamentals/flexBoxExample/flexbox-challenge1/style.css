@@ -1,0 +1,80 @@
+* {
+    /*margin and padding set to 0 moves the contents to right most part of the page without any spaces*/
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*changes the font family*/
+  }  
+  /*Sets the navigation menu to flex box*/
+main {
+    width: 95%;
+    margin: 25px auto;
+    height: 610px;
+    display: flex;
+    justify-content: space-between;
+  }
+.nav-class{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content:flex-end;
+    background-color: black;
+}
+.logo{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    margin-right: auto;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+}
+nav a:hover{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-left{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-evenly;
+}
+.flex-right{
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    border: 2px solid;
+    padding-top: 10px;
+    height: max-content;
+    margin-top: 20px;
+}
+.card{
+    border: 2px solid;
+    text-align: left;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+h3{
+    text-align: left;
+}
+.flex-left .card h3{
+    margin-left: 12px;
+}
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ul {
+    padding: 1px;  
+    padding-left: 40px;
+}
+  
