@@ -1,9 +1,13 @@
 .login-button{
-    display: block;
     border-radius: 10px;
     border: solid 2px;
     width: 100px;
-    text-align: center;
+    text-align:center;
     padding: 10px 20px;
-    height: 20px;
+    height: 25px;
+    color: $logo-color;
+    border-color: #394064;
+    font-family: $font-logo;
+    font-weight: bold;
+    font-size: 20px;
 }
