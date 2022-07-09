@@ -17,11 +17,12 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .blue-font {
   color: #1BBAF2;
-  font-size: 49px;
+  font-size: 46px;
 }
 
 main div {
@@ -47,18 +48,16 @@ main div:nth-child(5) {
   font-size: 32px;
 }
 
-main div:nth-child(6) {
-  font-size: 32px;
-  height: 48px;
-}
-
 .get-advice-button {
+  display: inline-block;
+  width: 65%;
   text-decoration: none;
   border-radius: 10px;
   border: solid 2px;
   color: white;
   background-color: #394064;
   padding: 10px;
+  font-size: 32px;
 }
 
 main div:nth-child(7) {
@@ -73,8 +72,14 @@ main div:nth-child(7) {
   justify-content: center;
 }
 
-img {
-  max-width: 100%;
+.logo {
+  display: block;
+  height: 100%;
+}
+
+.logo_img {
+  height: 100%;
+  width: 100%;
 }
 
 .image {
@@ -88,8 +93,14 @@ img {
   text-align: initial;
 }
 
-header {
-  height: 20vh;
+nav {
+  /*height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;  
+  padding:0 40px;*/
+  height: 18vh;
   display: flex;
   flex-direction: row;
   align-items: center;
