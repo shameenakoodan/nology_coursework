@@ -80,3 +80,11 @@ main div:nth-child(7){
     color: $logo-color;
     text-align: initial;
   }
+  a{
+    text-decoration: none;
+  }
+footer a{
+    font-size: 20px;
+    padding: 14px;
+    background-color: $color-footer;
+}
