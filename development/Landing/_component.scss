@@ -33,3 +33,15 @@ main div:nth-child(2) {
   main div:nth-child(5){
     font-size: 32px;
   }
+  main div:nth-child(6){
+    font-size: 32px;
+    height: 48px;
+  }
+.get-advice-button{
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 2px;
+    color: $color-white;
+    background-color: $logo-color;
+    padding: 10px;
+}

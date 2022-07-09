@@ -47,6 +47,20 @@ main div:nth-child(5) {
   font-size: 32px;
 }
 
+main div:nth-child(6) {
+  font-size: 32px;
+  height: 48px;
+}
+
+.get-advice-button {
+  text-decoration: none;
+  border-radius: 10px;
+  border: solid 2px;
+  color: white;
+  background-color: #394064;
+  padding: 10px;
+}
+
 header {
   height: 16vh;
   display: flex;
