@@ -89,7 +89,7 @@ img {
 }
 
 header {
-  height: 16vh;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   align-items: center;
