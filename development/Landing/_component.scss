@@ -45,6 +45,12 @@ main div:nth-child(2) {
     background-color: $logo-color;
     padding: 10px;
 }
+main div:nth-child(7){
+    font-size: 32px;
+    height: 48px;
+    color: $logo-color;
+
+  }
 .container {
     display: flex;
     align-items: center;
@@ -60,6 +66,8 @@ main div:nth-child(2) {
   }
   
   .text {
-    font-size: 20px;
+    font-size: 35px;
     padding-left: 20px;
+    color: $logo-color;
+    text-align: initial;
   }

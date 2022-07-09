@@ -61,6 +61,12 @@ main div:nth-child(6) {
   padding: 10px;
 }
 
+main div:nth-child(7) {
+  font-size: 32px;
+  height: 48px;
+  color: #394064;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -76,8 +82,10 @@ img {
 }
 
 .text {
-  font-size: 20px;
+  font-size: 35px;
   padding-left: 20px;
+  color: #394064;
+  text-align: initial;
 }
 
 header {
